@@ -7,7 +7,7 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
-  final GlobalKey<State> _keyLoader = new GlobalKey<State>();
+
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   @override
